@@ -68,7 +68,7 @@ function App() {
       <div className="pt-16 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
           <img
-            src="https://raw.githubusercontent.com/weinne/profile/main/profile.jpg"
+            src="https://avatars.githubusercontent.com/u/2789869?v=4"
             alt="Weinne Santos"
             className="w-32 h-32 rounded-full mx-auto mb-8 object-cover shadow-lg"
           />
