@@ -73,7 +73,7 @@ function App() {
             className="w-32 h-32 rounded-full mx-auto mb-8 object-cover shadow-lg"
           />
           <h1 className="text-4xl font-serif font-bold text-gray-900 dark:text-white mb-4">Weinne Santos</h1>
-          <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">Pastor presbiteriano, teólogo reformado e escritor</p>
+          <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">Pastor presbiteriano</p>
         </div>
       </div>
 
