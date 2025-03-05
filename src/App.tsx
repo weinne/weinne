@@ -1,5 +1,5 @@
 import React from 'react';
-import { Book, GraduationCap, Mail, MenuIcon, Moon, Sun, X } from 'lucide-react';
+import { Book, GraduationCap, Mail, MenuIcon, Moon, Sun, X, Instagram, Twitter, Linkedin } from 'lucide-react';
 import { useState } from 'react';
 import { useTheme } from './ThemeContext';
 
@@ -74,6 +74,7 @@ function App() {
           />
           <h1 className="text-4xl font-serif font-bold text-gray-900 dark:text-white mb-4">Weinne Santos</h1>
           <p className="text-xl text-gray-600 dark:text-gray-400 mb-8">Pastor presbiteriano</p>
+          
         </div>
       </div>
 
@@ -165,11 +166,42 @@ function App() {
       <section id="contato" className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-serif font-bold text-gray-900 dark:text-white mb-8">Contato</h2>
-          <div className="flex justify-center items-center space-x-2">
-            <Mail className="w-5 h-5 text-gray-600 dark:text-gray-400" />
-            <a href="mailto:contato@weinne.teo.br" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
-              contato@weinne.teo.br
-            </a>
+          <div className="flex flex-col items-center space-y-4">
+            <div className="flex items-center space-x-2">
+              <Mail className="w-5 h-5 text-gray-600 dark:text-gray-400" />
+              <a href="mailto:contato@weinne.teo.br" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                contato@weinne.teo.br
+              </a>
+            </div>
+            <div className="flex items-center space-x-6 mt-4">
+              <a
+                href="https://instagram.com/weinne"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-6 h-6" />
+              </a>
+              <a
+                href="https://x.com/revweinne"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+                aria-label="Twitter"
+              >
+                <Twitter className="w-6 h-6" />
+              </a>
+              <a
+                href="https://linkedin.com/in/weinne"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-200"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-6 h-6" />
+              </a>
+            </div>
           </div>
         </div>
       </section>
