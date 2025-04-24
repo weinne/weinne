@@ -65,8 +65,8 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <div className="pt-16 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-24 text-center">
+      <div className="pt-24 bg-gradient-to-b from-gray-50 to-white dark:from-gray-800 dark:to-gray-900">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <img
             src="https://avatars.githubusercontent.com/u/2789869?v=4"
             alt="Weinne Santos"
@@ -83,12 +83,11 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-serif font-bold text-gray-900 dark:text-white mb-8 text-center">Sobre</h2>
           <div className="prose prose-lg dark:prose-invert mx-auto">
-            <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
+            <p className="text-gray-600 dark:text-gray-400 leading-relaxed text-justify">
               Weinne Santos é Bacharel em Sistemas de Informação pela Universidade Federal de Mato Grosso (UFMT, 2015), 
               bacharel em Teologia pelo Seminário Teológico Rev. José Manoel da Conceição (JMC, 2019), Mestre em 
               Divindade pelo Centro Presbiteriano de Pós-Graduação Andrew Jumper, cum laude (CPAJ, 2024), licenciado 
-              em Filosofia pelo Centro Universitário Fatecie (UniFatecie, 2024), pós-graduando em Teologia Filosófica 
-              pelo Seminário Teológico Jonathan Edwards e Centro Universitário Filadelfia (STJE, UniFil), professor de 
+              em Filosofia pelo Centro Universitário Fatecie (UniFatecie, 2024), professor de 
               História no Seminário Presbiteriano de Jesus e pastor da Primeira Igreja Presbiteriana de Mairiporã (2021-atual). 
               32 anos, marido da Aniely e pai do Manuel e da Lúcia.
             </p>
